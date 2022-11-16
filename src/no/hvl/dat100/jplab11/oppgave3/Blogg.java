@@ -38,7 +38,7 @@ public class Blogg {
                 indeks = i;
             }
         }
-        return indeks; //returnerer den aktuelle posisjonen
+        return indeks; 
     }
 
     public boolean finnes(Innlegg innlegg) {
@@ -56,8 +56,6 @@ public class Blogg {
     public boolean ledigPlass() {
 
         return nesteledig < innleggtabell.length;
-        //returnerer true om det er ledigplass
-        //og false om det ikke er ledig plass
 
     }
 
